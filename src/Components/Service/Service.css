@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&display=swap');
+
+#ser{
+    display:flex;
+    justify-content: center;
+    color:darkgoldenrod;
+    margin-left: 50px;
+    font-family: 'Alegreya SC',"Arial Rounded MT Bold";
+}
+.container{
+    display: flex;
+   flex-direction: column;
+}
+#cate{
+    flex-direction: row;
+}
+#ictails{
+    margin-top:50px !important;
+    justify-content: space-evenly !important;
+    font-size:80px;
+    gap: 20px !important;
+    color:blueviolet;
+}
+#serr{
+    display:flex;
+    justify-content: center;
+    color:darkgoldenrod;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Alegreya SC',"Arial Rounded MT Bold";
+}
+#para{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Alegreya SC';
+    text-align: justify;
+}
+#path{
+    margin-top: -90px;
+}
+@media (max-width: 576px) {
+    #ser{
+        font-size:50px;
+        margin-top:30px;
+        margin-left:-5px;
+    }
+    #ictails{
+        font-size:40px;
+        margin-left: 10px;
+        gap:10px;
+    }
+    #para{
+          font-size:20px;
+          width:100vw;
+    }
+
+
+}
+
+@media (max-width: 635.98px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+@media (max-width: 685.98px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+@media (max-width: 700.98px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+@media (max-width: 725.98px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+    #ser{
+
+    }
+    #ictails{
+
+    }
+    #para{
+
+    }
+
+
+}
+
+

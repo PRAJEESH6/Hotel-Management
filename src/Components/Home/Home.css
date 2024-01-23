@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+#walls{
+    height: 100vh;
+    width: 100vw;
+   
+    position: relative;
+}
+.back{
+   
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    filter: brightness(65%);
+}
+#karkil{
+    font-size: 90px;
+    height: 30px;
+    margin-left: -230px;
+    font-family: 'Bruno+Ace+SC','Times New Roman', Times, serif;
+    text-shadow: 2px 2px #6c5ce7;
+    font-style: italic;
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+#pull{
+    margin-top: 80px;
+    font-family: 'Bruno+Ace+SC','Times New Roman', Times, serif;
+    margin-left: -5px;
+    font-size: 30px;
+}
+i{
+    color: #6c5ce7;
+    text-shadow: 2px 2px white;
+}
+#lose{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 500px;
+    color: white;
+    
+}
+#pull:hover{
+    color: #fdcb6e;
+    cursor: pointer;
+}
+.btn{
+    background-color: #6c5ce7 !important;
+    color: white !important;
+    transition: 1s;
+    margin-left: 120px;
+    margin-top: 10px;
+    border: 1px solid white;
+    font-family: 'Bruno+Ace+SC','Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color: white;
+    color: #6c5ce7;
+    border: 2px solid #6c5ce7;
+    font-family: 'Bruno+Ace+SC','Times New Roman', Times, serif;
+    transition: 1s;
+}
+
+@media (max-width: 576px) {
+
+    #karkil{
+        font-size:35px !important;
+        margin-left: -496px !important;
+        margin-top:-165px !important;
+    }
+    i{
+        font-size:48px;
+    }
+    #hooo{
+        height: 100vh;
+    }
+    #pull{
+        font-size:20px !important;
+        margin-left: -440px !important;
+    }
+    .btn{
+        font-size:25px;
+        margin-left: -350px !important;
+    }
+}
+@media (max-width: 635.98px) {
+    #karkil{
+        font-size:40px;
+        margin-left: -450px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:25px;
+        margin-left: -420px;
+    }
+    .btn{
+        font-size:25px;
+        margin-left: -310px;
+    }
+}
+@media (max-width: 685.98px) {
+    #karkil{
+        font-size:40px;
+        margin-left: -450px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:25px;
+        margin-left: -420px;
+    }
+    .btn{
+        font-size:25px;
+        margin-left: -310px;
+    }
+}
+@media (max-width: 700.98px) {
+    #karkil{
+        font-size:40px;
+        margin-left: -450px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:25px;
+        margin-left: -420px;
+    }
+    .btn{
+        font-size:25px;
+        margin-left: -310px;
+    }
+}
+@media (max-width: 725.98px) {
+    #karkil{
+        font-size:40px;
+        margin-left: -450px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:25px;
+        margin-left: -420px;
+    }
+    .btn{
+        font-size:25px;
+        margin-left: -310px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #karkil{
+        font-size:40px;
+        margin-left: -300px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:25px;
+        margin-left: -270px;
+    }
+    .btn{
+        font-size:25px;
+        margin-left: -160px;
+    }
+
+}
+@media (min-width: 992px) {
+
+    #karkil{
+        font-size:55px;
+        margin-left: -200px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:40px;
+        margin-left: -170px;
+    }
+    .btn{
+        font-size:40px;
+        margin-left: -1px;
+    }
+
+
+}
+@media (min-width: 1200px) {
+
+    #karkil{
+        font-size:90px;
+        margin-left: -230px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:40px;
+        margin-left: -75px;
+    }
+    .btn{
+        font-size:70px;
+        margin-left:130px;
+
+    }
+}
+
+@media (min-width: 1400px) {
+
+    #karkil{
+        font-size:95px;
+        margin-left: -230px;
+        margin-top:25px;
+    }
+    #pull{
+        font-size:45px;
+        margin-left: -75px;
+    }
+    .btn{
+        font-size:75px;
+        margin-left:130px;
+
+    }
+}
